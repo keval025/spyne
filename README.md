@@ -32,4 +32,15 @@ Words are whitespace-separated tokens containing a letter or digit. The exhibit 
 ## Notes
 
 - Text-based checks are heuristics and are labelled as such in the output.
-- Section g (session log) is not in this repo yet.
+## Assumptions
+
+- Replies from the tools stand in for "the booking system". The pack does not show the real system.
+- The pack's weekdays are used as given: 24 Aug is a Sunday (C-13 says so). The logs are labelled 2026, which does not match the real calendar.
+- Nothing is treated as "pending confirmation". Only a book_appointment status ok counts as a confirmed booking.
+- The weekly summary is assumed to be built from log_outcome. The pack does not show how it is generated.
+- Checks that read transcript wording (spoken times, the 8 status calls) are heuristics.
+- Whether get_vehicle_status is enabled at KTD-04 is unknown from the pack.
+
+## Rebuild note
+
+This repo is a rebuild of work first done in an earlier session. The session log is in session-log/prompts.md.
