@@ -1,0 +1,1 @@
+Your weekly report says 9 of 20 calls ended in a booking. Checked against the booking system's replies, only 4 of 20 were confirmed. Two of those, A-9058 and A-9061, were told the wrong time, so please contact those customers. Five callers logged as booked have no appointment (calls C-02, C-03, C-05, C-10, C-13). I have written this up for engineering.
