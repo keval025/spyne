@@ -1,0 +1,2 @@
+1. **Cause of the wrong time**. An earlier AI answer said the assistant read UTC as local time. In C-09 the same turn offered Friday "4 pm", which matches S-4444 (10:30Z, 16:00 IST), so one slot was converted correctly. I dropped that cause and kept what the log shows: no `start_local`, and a spoken time that differs from `confirmed_local`.
+2. **Error rule.** The AI's R2 counted C-03, C-10 and C-13 as error then booked. In C-03 and C-10 the error was a NOT_FOUND lookup, not a booking failure. I cite only C-13.
