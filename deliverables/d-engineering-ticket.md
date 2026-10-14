@@ -7,4 +7,4 @@ C-02: transfer returned no_answer (11:17:02), no log_callback, then logged booke
 Expected per tool reference: booked only after status ok; errors are failures; no_answer needs a callback.
 Ask 1: reject log_outcome booked unless book_appointment returned ok in the same call.
 Ask 2: return start_local on every slot; reject slot_ids that check_availability did not return.
-Unknown: is get_vehicle_status enabled at KTD-04? Data: data/2-call-records.md, audit.py.
+Unknown: is get_vehicle_status enabled? Repro calls: C-13, C-02, C-08.
